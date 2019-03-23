@@ -1,0 +1,16 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Karthick",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "rss-to-json": "^1.0.4"
+  }
+}

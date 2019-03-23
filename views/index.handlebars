@@ -1,0 +1,20 @@
+<div class="container mt-3">
+    <div class="text-center">
+        <h4>The Hindu</h4>
+    </div>
+</div>
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-xs-12">
+            {{#each data}}
+            <a href="{{ link }}" style="color:inherit">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ title }}</h5>
+                        <p class="card-text">{{ description }}</p>
+                    </div>
+                </div>
+            </a>
+            {{/each}}
+        </div>
+    </div>
